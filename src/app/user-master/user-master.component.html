@@ -1,0 +1,39 @@
+<!-- <table>
+    <thead>
+        <tr>
+            <th>AIRPORT</th>
+            <th>TIME</th>
+            <th>ARRIVING</th>
+            <th>DEPARTING</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let aircraft of aircraftDetails">
+            <td>{{ aircraft.airport }}</td>
+            <td>{{ aircraft.time }}</td>
+            <td>{{ aircraft.arriving }}</td>
+            <td>{{ aircraft.departing }}</td>
+        </tr>
+    </tbody>
+</table> -->
+
+
+<table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>AIRPORT</th>
+        <th>TIME</th>
+        <th>ARRIVING AIRCRAFT</th>
+        <th>DEPARTING AIRCRAFT</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let aircraft of aircraftDetails">
+        <td>{{ aircraft.airport }}</td>
+        <td>{{ aircraft.time }}</td>
+        <td>{{ aircraft.arriving }}</td>
+        <td>{{ aircraft.departing }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
